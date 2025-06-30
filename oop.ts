@@ -163,7 +163,7 @@ class Rectangle extends Shape {
   height: number;
 
   constructor(width: number, height: number) {
-    super(Shape.name);
+    super('rectangle');
     this.height = height;
     this.width = width;
   }
@@ -177,7 +177,7 @@ class Circle extends Shape {
   radius: number;
 
   constructor(radius: number) {
-    super(Shape.name);
+    super('circle');
     this.radius = radius;
   }
 
